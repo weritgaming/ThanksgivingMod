@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="//droplists/droplist[@id='masstraffic_civilian']/drop/collectable/wares">
+		<select weight="11">
+			<ware ware="inv_turkey" min="1" max="1"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_stuffing" min="1" max="2"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_pie" min="1" max="2"/>
+		</select>
+	</add>
+</diff>

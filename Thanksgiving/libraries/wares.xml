@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+	<add sel="/wares">
+		<ware id="inv_thanksgiving" name="{86751235,1000}" description="{86751235,1001}" transport="inventory" volume="1" tags="crafting inventory">
+			<price min="150000" average="150000" max="150000" />
+			<production time="10" amount="1" method="default" name="{86751235,1000}">
+				<primary>
+					<ware ware="inv_turkey" amount="1" />
+					<ware ware="inv_stuffing" amount="1" />
+					<ware ware="inv_pie" amount="1" />
+				</primary>
+			</production>
+			<container ref="sm_gen_wares_rare_01_macro" />
+			<icon video="ware_inventory_generic_macro" />
+			<sources>
+				<source type="{20224,21}" />
+				<source type="{20224,51}" />
+			</sources>
+		</ware>
+		<ware id="inv_turkey" name="{86751235,1002}" description="{86751235,1003}" transport="inventory" volume="1" tags="crafting inventory">
+			<price min="100" average="100" max="100" />
+			<container ref="sm_gen_wares_common_01_macro" />
+			<icon video="ware_inventory_generic_macro" />
+			<sources>
+				<source type="{20224,21}" />
+				<source type="{20224,41}" />
+			</sources>
+		</ware>
+		<ware id="inv_stuffing" name="{86751235,1004}" description="{86751235,1005}" transport="inventory" volume="1" tags="crafting inventory">
+			<price min="100" average="100" max="100" />
+			<container ref="sm_gen_wares_common_01_macro" />
+			<icon video="ware_inventory_generic_macro" />
+			<sources>
+			<source type="{20224,21}" />
+			<source type="{20224,41}" />
+			</sources>
+		</ware>
+		<ware id="inv_pie" name="{86751235,1006}" description="{86751235,1007}" transport="inventory" volume="1" tags="crafting inventory">
+			<price min="100" average="100" max="100" />
+			<container ref="sm_gen_wares_common_01_macro" />
+			<icon video="ware_inventory_generic_macro" />
+			<sources>
+			<source type="{20224,21}" />
+			<source type="{20224,41}" />
+			</sources>
+		</ware>
+	</add>
+</diff>

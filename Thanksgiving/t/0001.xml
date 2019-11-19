@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language id="44">
+
+<page id="86751235" title="Thanksgiving Mod Text" descr="Text for Thanksgiving" voice="no">
+ <t id="1000">Thanksgiving Dinner</t>
+ <t id="1001">A fully prepared Thanksgiving dinner! I'm sure some people out there would be very grateful to have some.</t>
+ <t id="1002">Turkey</t>
+ <t id="1003">A turkey, gobble gobble.</t>
+ <t id="1004">Stuffing</t>
+ <t id="1005">A package of stuffing, or as some people call it: dressing.</t>
+ <t id="1006">Pumpkin Pie</t>
+ <t id="1007">A pumpkin pie. Cool Whip not included.</t>
+</page>
+
+</language>

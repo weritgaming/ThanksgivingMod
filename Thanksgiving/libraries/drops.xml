@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<add sel="//droplists/droplist[@id='masstraffic_civilian']/drop/collectable/wares">
+	<add sel="//droplists/droplist[@id='masstraffic_civilian']/drop[@macro='sm_gen_wares_common_01_macro']/collectable/wares">
+		<select weight="11">
+			<ware ware="inv_turkey" min="1" max="1"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_stuffing" min="1" max="2"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_pie" min="1" max="2"/>
+		</select>
+	</add>
+	<add sel="//droplists/droplist[@id='ship_small_military']/drop[@macro='sm_gen_wares_common_01_macro']/collectable/wares">
+		<select weight="11">
+			<ware ware="inv_turkey" min="1" max="1"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_stuffing" min="1" max="2"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_pie" min="1" max="2"/>
+		</select>
+	</add>
+	<add sel="//droplists/droplist[@id='ship_small_pirate']/drop[@macro='sm_gen_wares_common_01_macro']/collectable/wares">
+		<select weight="11">
+			<ware ware="inv_turkey" min="1" max="1"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_stuffing" min="1" max="2"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_pie" min="1" max="2"/>
+		</select>
+	</add>
+	<add sel="//droplists/droplist[@id='ship_small_civilian']/drop[@macro='sm_gen_wares_common_01_macro']/collectable/wares">
+		<select weight="11">
+			<ware ware="inv_turkey" min="1" max="1"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_stuffing" min="1" max="2"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_pie" min="1" max="2"/>
+		</select>
+	</add>
+	<add sel="//droplists/droplist[@id='ship_small_xenon']/drop[@macro='sm_gen_wares_common_01_macro']/collectable/wares">
+		<select weight="11">
+			<ware ware="inv_turkey" min="1" max="1"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_stuffing" min="1" max="2"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_pie" min="1" max="2"/>
+		</select>
+	</add>
+	<add sel="//droplists/droplist[@id='ship_medium_civilian']/drop[@macro='sm_gen_wares_common_01_macro']/collectable/wares">
+		<select weight="11">
+			<ware ware="inv_turkey" min="1" max="1"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_stuffing" min="1" max="2"/>
+		</select>
+		<select weight="19">
+			<ware ware="inv_pie" min="1" max="2"/>
+		</select>
+	</add>
+	<add sel="//droplists/droplist[@id='ship_large_military']/drop[@macro='sm_gen_wares_common_01_macro']/collectable/wares">
 		<select weight="11">
 			<ware ware="inv_turkey" min="1" max="1"/>
 		</select>

@@ -10,7 +10,7 @@
                 </check_any>
             </conditions>
             <actions>
-                <do_if value="event.object.type == entitytype.trader">
+                <do_if value="event.object.type == entitytype.factionrepresentative">
                     <set_value name="$gift" exact="ware.inv_thanksgiving"/>
                     <add_player_choice_sub text="'Give Gift'" tooltip="'Give Thanksgiving Dinner'" selectable="player.entity.inventory.{$gift}.exists" section="Open_From_Convo" choiceparam="event.object" />
                 </do_if> 
@@ -23,7 +23,7 @@
             </conditions>
             <actions>
                 <set_value name="$oldrelation" exact="event.param2.owner.relationto.{faction.player}" />
-                <set_faction_relation faction="event.param2.owner" otherfaction="faction.player" value="$oldrelation + 0.001" reason="'Your generous gift pleased them.''" />
+                <set_faction_relation faction="event.param2.owner" otherfaction="faction.player" value="$oldrelation + 0.001" />
                 <remove_inventory ware="ware.inv_thanksgiving" />
             </actions>
         </cue>
